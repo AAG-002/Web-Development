@@ -1,0 +1,95 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Gilroy';
+      color:#fff;
+}
+
+html, body{
+      height: 100%;
+      width: 100%;
+}
+
+#main{
+      height: 100%;
+      width: 100%;
+      background-color: black;
+}
+
+img{
+      height: 60px;
+}
+
+#nav{
+      height: 100px;
+      width: 100%;
+      display: flex;
+      align-items:center;
+      justify-content: space-between;
+      padding: 0 30px;
+}
+
+#nav_2{
+      display: flex;
+      gap: 30px;
+}
+
+#nav_3{
+      display: flex;
+      align-items: center;
+      gap: 50px;
+}
+
+#nav button{
+      background-color: #fff;
+      color: black;
+      padding: 15px 20px;
+      font-weight: 800;
+      font-size: 18px;
+}
+
+#main h1{
+      font-size: 100px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+#main span{
+      background-color: rgb(231, 46, 46);
+      padding: 15px 30px;
+      font-size: 25px;
+      border-radius: 50px;
+      margin: 0 30px;
+}
+
+#main h1:nth-child(2){
+      color: rgb(101, 222, 255);
+      margin-top: 125px;
+}
+
+#left-img{
+      height: 375px;
+      position: absolute;
+      top:17%;
+      left:5%;
+      border-radius: 10px;
+}
+
+#right-img{
+      height: 275px;
+      position: absolute;
+      bottom:10%;
+      right:5%;
+      border-radius: 10px;
+}
+
+h5{
+      position: absolute;
+      bottom: 12%;
+      left: 50%;
+      transform: translate(-50%,0);
+      font-size: 25px;
+}

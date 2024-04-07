@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    height:100%;
+    width: 100%;
+}
+
+#background{
+    width: 100%;
+    height: 105vh;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+#background img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#gradient{
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.7),black);
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+}
+
+#overlay{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.12);
+    z-index: 11;
+    padding: 30px 40px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    color: white;
+}
+
+nav h3{
+    font-size: 21px;
+}
+
+nav button{
+    padding: 10px 25px;
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+}
+
+#overlay h1{
+    font-size: 72px;
+    color: white;
+    position:absolute;
+    top:42%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#overlay footer{
+    width: 95%;
+    position: absolute;
+    display: flex;
+    bottom: 10%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+footer h4{
+    font-weight: 100;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+footer h4 #big{
+    font-size: 40px;
+}
+
+footer #right a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 12px;
+}
+
+#content{
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    padding-top: 1px;
+}
+
+#elems{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px 22px;
+    width: 70%;
+    height: 210px;
+    margin: 0 auto;
+    margin-top: 125px;
+}
+
+#elems #block{
+    position: relative;
+    height: 90px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.img1{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://img.freepik.com/free-photo/white-cloud-blue-sky_74190-7709.jpg?w=1060&t=st=1689404267~exp=1689404867~hmac=9163cbc0114c81cf31918d0f850ccdcf49fdee55ba70ab486a1511ac3e6b9dd6);
+}
+
+.img2{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://img.freepik.com/free-photo/grassland-landscape-greening-environment-park-background_1112-1183.jpg?w=1060&t=st=1689404450~exp=1689405050~hmac=a5bee03d0f3fb85d01936488b4be9370893a7ffc9452d73ee617b42e99feb5ad);
+}
+
+.img3{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://img.freepik.com/free-photo/bright-blue-ocean-with-smooth-wave-background_1258-84908.jpg?w=1060&t=st=1689404911~exp=1689405511~hmac=a88f12e802abda37e657f86dcb32b8da1975131fe4aad2cd2fdbfa51916deb0b);
+}
+
+.img4{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://img.freepik.com/free-photo/3d-abstract-space-sky-with-stars-nebula_1048-8320.jpg?w=740&t=st=1689404954~exp=1689405554~hmac=3eef832d492e196ca57c1076a2404dc9b73ec1cb539526ec5ed2c1776eb3ac8e);
+}
+
+
+h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#content p{
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-weight: 100;
+    line-height: 30px;
+}

@@ -1,0 +1,62 @@
+@font-face {
+      font-family: head;
+      src: url(/Heading-Now-Variable.ttf);
+}
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+html, body{
+      height: 100%;
+      width: 100%;
+}
+
+#loading{
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      background-color: rgb(143, 143, 240);
+      z-index: 99;
+      display: flex;
+      position: center;
+      align-items: center;
+      justify-content: center;
+}
+
+#loading h1{
+      font-size: 10vmax;
+      font-family: head;
+      font-weight: 500;
+      font-stretch: 400%;
+}
+
+#page1{
+      height: 100vh;
+      width: 100%;
+      background-color: black;
+}
+
+#page1 h1{
+      font-size: 40vw;
+      color: white;
+      font-family: head;
+      white-space: nowrap;
+      font-stretch: 260%;
+      font-weight: 900;
+      /* overflow: hidden; */
+}
+
+#page2{
+      height: 100vh;
+      width: 100%;
+      background-color: rgb(127, 85, 85);
+}
+
+#page3{
+      height: 100vh;
+      width: 100%;
+      background-color: black;
+}
